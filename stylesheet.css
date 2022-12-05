@@ -7,18 +7,29 @@
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
-    height: 2027px;
+
 }
 
 body{
-    font-family: Cabin;
+    font-family: Cabin; 
     font-size: 22px;
+    height: 2027px;
+    background: linear-gradient(
+        to bottom,
+        #F0EEEB 0%,
+        #F0EEEB 38%,
+        white 38%,
+        white 62%,
+        black 62%,
+        black 100%
+    );
 }
 
-
-.HeroSection{
-    background-color: #F0EEEB;
+a {
+    text-decoration: none;
+    color: black;
 }
+
 
 .annoucement{
     font-size: 18px;
@@ -42,16 +53,22 @@ body{
     height: 58px;
     text-align: center;
     padding: 90px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 40px 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 
 .navright{
-    align-self: flex-end;
+    text-align: center;
+}
+
+.navright a{
+    border-radius: 5px;
+    color: white;
+    background-color: black;
 }
 
 .nav a{
@@ -59,11 +76,49 @@ body{
     align-self: center;
 }
 
-
-.EscrowSection{
-    background-color: #F0EEEB;
+.left{
+    width: 40%;
+    padding: 0px 150px;
+    float: left;
 }
 
-.Footer{
+.left input{
+    padding: 18px 24px;
+    text-align: center;
+    margin: 32px 18px 0px 0px;
+    font-size: 18px;
+    width: 160px;
+    height: 21px;
+    border-radius: 5px;
+    border: 1px solid #B1B1B1;
+}
+
+.left a{
+    border-radius: 5px;
+    color: white;
     background-color: black;
+    padding: 18px 24px;
+}
+
+.right img{
+    width: 425px;
+    height: 519px;
+}
+
+
+.logos{
+    width: 1140px;
+    height: 37px;
+    padding: 100px 150px;
+}
+
+.logos img{
+    height: 25px;
+    margin-right: 31px;
+}
+
+.EscrowSection{
+    padding: 48px 150px;
+    background-color: #F0EEEB;
+    height: 405px;
 }
