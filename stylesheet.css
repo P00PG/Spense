@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Cabin;
+    src: url(Cabin-VariableFont_wdth,wght.ttf);
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 2027px;
+}
+
+body{
+    font-family: Cabin;
+    font-size: 22px;
+}
+
+
+.HeroSection{
+    background-color: #F0EEEB;
+}
+
+.annoucement{
+    font-size: 18px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+
+.annoucement p{
+    height: 22px; 
+    top:14px;
+    position: relative;
+}
+
+.annoucement span{
+    text-decoration: underline;
+}
+
+.nav{
+    height: 58px;
+    text-align: center;
+    padding: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navright{
+    align-self: flex-end;
+}
+
+.nav a{
+    padding: 15px;
+    align-self: center;
+}
+
+
+.EscrowSection{
+    background-color: #F0EEEB;
+}
+
+.Footer{
+    background-color: black;
+}
