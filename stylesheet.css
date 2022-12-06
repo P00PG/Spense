@@ -19,8 +19,8 @@ body{
         #F0EEEB 0%,
         #F0EEEB 38%,
         white 38%,
-        white 62%,
-        black 62%,
+        white 88%,
+        black 88%,
         black 100%
     );
 }
@@ -118,7 +118,67 @@ a {
 }
 
 .EscrowSection{
+    margin-top: -30px;
     padding: 48px 150px;
     background-color: #F0EEEB;
     height: 405px;
+    position: relative;
+    border-radius: 10px;
 }
+
+.leftsection{
+    position: absolute;
+    top: 93px;
+    width: 35%;
+}
+
+.leftsection h2{
+    width: 311px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.leftsection a{
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: underline;
+    color: #5A5444;
+}
+
+.leftsection p{
+    font-size: 18px;
+    line-height: 27px;
+    color:  #5A5444;
+}
+
+.rightsection{
+    position: absolute;
+    bottom: -5px;
+    left: 130px;
+}
+
+.rightsection img{
+    height: 457px;
+}
+
+
+.TextEditorSection{
+    height: 334px;
+    width: 1140px;
+}
+
+.testl{
+    float: left;
+    width: 50%;
+}
+
+.tesl img{
+    height: 334px;
+}
+
+.tesr{
+    float: right;
+    width: 50%;
+}
+
+
